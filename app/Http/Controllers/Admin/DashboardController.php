@@ -21,4 +21,10 @@ class DashboardController extends Controller
         $letter_confirmation = Letter_confirmation::where('users_id',AUth::user()->id)->get();
         return view('admin.index',compact('letter','user','disposition','letter_disposition','letter_confirmation'));
     }
+
+
+    public function dahsboard_berita()
+    {
+        return view('admin.berita.dashboard');
+    }
 }

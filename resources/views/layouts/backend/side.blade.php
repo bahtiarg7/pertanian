@@ -23,6 +23,12 @@
         </li>
         @can('admin')
         <li>
+            <a href="{{route('berita.dashboard')}}">
+                <i class="nc-icon nc-bank"></i>
+                <p>Dashboard Berita</p>
+            </a>
+          </li>
+        <li>
           <a href="{{route('users.index')}}">
             <i class="nc-icon nc-single-02"></i>
             <p>Users Management</p>
@@ -33,6 +39,7 @@
             <i class="nc-icon nc-email-85"></i>
             <p>Upload Surat</p>
           </a>
+
         </li>
         @endcan
         <li>

@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PDFController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Admin\SiderController;
+use App\Http\Controllers\Admin\KategoriContorller;
+use App\Http\Controllers\Frontend\IndexController;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +24,11 @@ use App\Http\Controllers\Auth\LoginController;
 |
 */
 
-Route::get('/', function () {
-    return redirect()->route('login');;
-});
+
+//Berita
+Route::get('/', [IndexController::class, 'index'])->name('index');
+
+
 
 Auth::routes();
 
@@ -40,6 +46,17 @@ Route::middleware(['auth'])->group(function(){
     Route::get('user/destroy/{id}', [App\Http\Controllers\Admin\UserController::class, 'destroy'])->name('users.destroy');
     Route::post('user/store', [App\Http\Controllers\Admin\UserController::class, 'store'])->name('users.store');
     Route::get('user/create', [App\Http\Controllers\Admin\UserController::class, 'create'])->name('users.create');
+    //Router berita
+    Route::group(['middleware' => 'check.admin'], function () {
+        Route::get('/backend/dashboard', [DashboardController::class, 'dahsboard_berita'])->name('berita.dashboard');
+        Route::get('backend/berita/kategori', [KategoriContorller::class, 'page_index_kategori'])->name('berita.kategori');
+        Route::post('backend/berita/kategori/create', [KategoriContorller::class, 'page_store_kategori'])->name('berita.kategori.store');
+        Route::post('backend/berita/kategori/update/{id}', [KategoriContorller::class, 'update_page'])->name('berita.kategori.update');
+        Route::post('backend/berita/kategori/destroy/{id}', [KategoriContorller::class, 'page_destroy'])->name('berita.kategori.destroy');
+        Route::get('/backend/silder/index', [SiderController::class, 'index'])->name('backend.silder.index');
+        Route::post('/backend/silder/store', [SiderController::class, 'store'])->name('backend.silder.store');
+        Route::post('silder/update-status', [SiderController::class, 'updateStatus'])->name('silder.updateStatus');
+    });
 
 });
 Route::middleware(['auth'])->group(function(){
@@ -65,4 +82,11 @@ Route::middleware(['auth'])->group(function(){
 //     Route::post('user/store', [App\Http\Controllers\Admin\UserController::class, 'store'])->name('user.store');
 //     Route::get('user/create', [App\Http\Controllers\Admin\UserController::class, 'create'])->name('user.create');
 // });
+// });
+
+
+//Router berita
+// Route::get('/auth/login/profile', [LoginController::class, 'showLoginForm'])->name('login.profile');
+// Route::middleware(['auth','check.admin'])->group(function () {
+//     Route::get('/backend/dashboard', [DashboardController::class, 'dahsboard_berita'])->name('berita.dashboard');
 // });

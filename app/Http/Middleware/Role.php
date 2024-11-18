@@ -16,15 +16,15 @@ class Role
      */
     public function handle(Request $request, Closure $next, $role)
     {
-        
+
 
         // Periksa apakah pengguna memiliki role yang dibutuhkan
         if (!Auth::user()->hasRole($role)) {
             return $next($request);
-            
+
         }
 // Anda bisa menyesuaikan redirection atau menampilkan pesan error di sini
-return  redirect()->route('index')->with('error', 'You do not have the required role to access this page.');    
-       
+    return  redirect()->route('index')->with('error', 'You do not have the required role to access this page.');
+
     }
 }
