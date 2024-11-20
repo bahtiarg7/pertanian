@@ -30,25 +30,41 @@
       <nav class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a>
+            <a class="nav-link" href="/">BERANDA</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">PROFILE</a>
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">TENTANG KAMI</a>
             <div class="dropdown-menu overflow-hidden p-0" data-bs-theme="light">
               <div class="d-lg-flex">
                 <div class="mega-dropdown-column pt-1 pt-lg-3 pb-lg-4">
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a class="dropdown-item" href="index.html">VISI MISI</a>
-                      <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url(assets/img/megamenu/landings.jpg);"></span>
+                      <a class="dropdown-item" href="#">PROFIL</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="dropdown-item" href="landing-mobile-app-showcase.html">SELAYANG PANDANG</a>
-                      <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 z-2 opacity-0" style="background-image: url(assets/img/megamenu/mobile-app.jpg);"></span>
+                      <a class="dropdown-item" href="#">TUGAS DAN FUNGSI</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="dropdown-item" href="landing-product.html">PETA</a>
-                      <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 z-2 opacity-0" style="background-image: url(assets/img/megamenu/product-landing.jpg);"></span>
+                      <a class="dropdown-item" href="#">PROGRAM DAN KEGIATAN</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">STRUKTUR ORGANISASI</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="{{route('visimisi')}}">VISI MISI</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="{{route('selayang_pandang')}}">SELAYANG PANDANG</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 z-2 opacity-0" style="background-image: url({{asset('frontend')}}/img/megamenu/mobile-app.jpg);"></span> --}}
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="{{route('peta')}}">PETA</a>
+                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 z-2 opacity-0" style="background-image: url({{asset('frontend')}}/img/megamenu/product-landing.jpg);"></span> --}}
                     </li>
                   </ul>
                 </div>
@@ -56,19 +72,16 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">LAYANAN</a>
+            <a class="nav-link" href="{{route('berita')}}">BERITA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ADUAN MASYARAKAT</a>
+            <a class="nav-link" href="#">GALERI</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PELAYANAN PUBLIK</a>
+            <a class="nav-link" href="{{route('agenda')}}">AGENDA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">AGENDA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">KONTAK</a>
+            <a class="nav-link" href="{{route('kontak')}}">KONTAK</a>
           </li>
         </ul>
         <div class="d-sm-none p-3 mt-n3">

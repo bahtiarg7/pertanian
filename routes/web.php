@@ -12,6 +12,10 @@ use App\Http\Controllers\Admin\SiderController;
 use App\Http\Controllers\Admin\KategoriContorller;
 use App\Http\Controllers\Frontend\IndexController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Frontend\AgendaController;
+use App\Http\Controllers\Frontend\BeritaController;
+use App\Http\Controllers\Frontend\KontakController;
+use App\Http\Controllers\Frontend\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,8 +29,14 @@ use App\Http\Controllers\Admin\DashboardController;
 */
 
 
-//Berita
+//Frontend
 Route::get('/', [IndexController::class, 'index'])->name('index');
+Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
+Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
+Route::get('/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi');
+Route::get('/selayang-pandang', [ProfileController::class, 'selayang_pandang'])->name('selayang_pandang');
+Route::get('/peta', [ProfileController::class, 'peta'])->name('peta');
+Route::get('/pertanian', [BeritaController::class, 'index'])->name('berita');
 
 
 

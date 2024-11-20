@@ -11,4 +11,9 @@ class Berita extends Model
 
     protected $table = 'berita';
     protected $guarded = [];
+
+    public function kategori()
+    {
+        return $this->belongsTo(BeritaKategori::class, 'berita_kategori_id');
+    }
 }

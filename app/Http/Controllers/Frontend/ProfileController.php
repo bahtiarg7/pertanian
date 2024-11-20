@@ -12,10 +12,14 @@ class ProfileController extends Controller
     }
 
     public function visimisi(){
-
+        return view('frontend.visimisi');
     }
 
     public function selayang_pandang(){
-        
+        return view('frontend.selayang_pandang');
+    }
+
+    public function peta(){
+        return view('frontend.peta');
     }
 }
