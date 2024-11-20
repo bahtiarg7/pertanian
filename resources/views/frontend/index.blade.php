@@ -61,7 +61,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide w-auto h-auto">
             <div class="card border-0 bg-secondary card-hover h-100 py-4" style="max-width: 306px;">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url(assets/img/landing/yoga-studio/features/changing-room.jpg);"></div>
+              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/yoga-studio/features/changing-room.jpg);"></div>
               <div class="card-body text-center">
                 <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Changing room</h3>

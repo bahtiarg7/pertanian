@@ -38,6 +38,12 @@
                     <span class="menu-text"> Dashboard Surat </span>
                 </a>
             </li>
+            <li class="side-nav-item">
+                <a href="/" class="side-nav-link" target="_blank">
+                    <span class="menu-icon"><i class="ti ti-home"></i></span>
+                    <span class="menu-text"> Halaman Depan </span>
+                </a>
+            </li>
             <li class="side-nav-title mt-2">Management Berita</li>
 
             <li class="side-nav-item">
