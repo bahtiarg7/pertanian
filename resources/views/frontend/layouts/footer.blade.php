@@ -11,31 +11,31 @@
         </a>
         <ul class="nav justify-content-center py-1 pb-sm-2">
           <li class="nav-item">
-            <a class="nav-link py-2 px-3 mx-1" href="#">Classes</a>
+            <a class="nav-link py-2 px-3 mx-1" href="#">Layanan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link py-2 px-3 mx-1" href="#">Trainers</a>
+            <a class="nav-link py-2 px-3 mx-1" href="#">Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link py-2 px-3 mx-1" href="#">Schedule</a>
+            <a class="nav-link py-2 px-3 mx-1" href="#">Berita</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link py-2 px-3 mx-1" href="#">Pricing</a>
+            <a class="nav-link py-2 px-3 mx-1" href="#">Pendidikan & Pelatihan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link py-2 px-3 mx-1" href="#">Contact</a>
+            <a class="nav-link py-2 px-3 mx-1" href="#">Kontak</a>
           </li>
-        </ul>
+        </ul>        
       </div>
       <div class="d-sm-flex align-items-center justify-content-between pt-4 mt-2 mt-sm-0">
         <div class="d-flex justify-content-center gap-3 order-sm-2 mb-4 mb-sm-0">
-          <a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle" href="#" aria-label="Instagram">
+          <a class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle" href="https://www.instagram.com/distankabbekasi/" aria-label="Instagram">
             <i class="ai-instagram"></i>
           </a>
           <a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle" href="#" aria-label="Facebook">
             <i class="ai-facebook"></i>
           </a>
-          <a class="btn btn-icon btn-sm btn-secondary btn-youtube rounded-circle" href="#" aria-label="YouTube">
+          <a class="btn btn-icon btn-sm btn-secondary btn-youtube rounded-circle" href="https://www.youtube.com/@dinaspertaniankabupatenbek5661" aria-label="YouTube">
             <i class="ai-youtube"></i>
           </a>
         </div>
