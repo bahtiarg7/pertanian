@@ -508,6 +508,17 @@ hr {
 
 /* Gallery Link */
 
+/* Garis Pemisah */
+.border-left {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+.text-primary img {
+    padding-right: 10px;
+}
+
+/* Garis Pemisah */
+
     @media (min-width: 992px) {
       .desktop {
         display: block;
