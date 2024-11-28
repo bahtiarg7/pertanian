@@ -494,6 +494,20 @@ hr {
 }
 /* Banner Video & Image */
 
+/* Gallery Link */
+.image-gallery .gallery-image {
+  width: 100%;
+  max-height: 50px;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%);
+}
+.image-gallery .gallery-image:hover {
+  filter: grayscale(0%) saturate(1.5);
+}
+
+/* Gallery Link */
+
     @media (min-width: 992px) {
       .desktop {
         display: block;

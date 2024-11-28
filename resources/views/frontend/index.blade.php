@@ -63,7 +63,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Portal PPID</h3>
                 <p class="card-text"></p>
               </div>
@@ -73,7 +73,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Konsultasi Pertanian Online</h3>
                 <p class="card-text"></p>
               </div>
@@ -83,7 +83,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Kontak Pengaduan</h3>
                 <p class="card-text"></p>
               </div>
@@ -93,7 +93,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Perizinan Pertanian</h3>
                 <p class="card-text"></p>
               </div>
@@ -103,7 +103,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Perbenihan</h3>
                 <p class="card-text"></p>
               </div>
@@ -113,7 +113,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Pengembangan SDM</h3>
                 <p class="card-text"></p>
               </div>
@@ -123,7 +123,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Data Penerima Subsidi Pupuk</h3>
                 <p class="card-text"></p>
               </div>
@@ -133,7 +133,7 @@
             <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
-                <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+                <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
                 <h3>Peternakan & Kesehatan Hewan</h3>
                 <p class="card-text"></p>
               </div>
@@ -172,7 +172,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Portal PPID</p>
           </div>
         </div>
@@ -181,7 +181,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Konsultasi Pertanian Online</p>
           </div>
         </div>
@@ -190,7 +190,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Kontak Pengaduan</p>
           </div>
         </div>
@@ -199,7 +199,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Perizinan Pertanian</p>
           </div>
         </div>
@@ -208,7 +208,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Perbenihan</p>
           </div>
         </div>
@@ -217,7 +217,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Pengembangan SDM</p>
           </div>
         </div>
@@ -226,7 +226,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Data Penerima Subsidi Pupuk</p>
           </div>
         </div>
@@ -235,7 +235,7 @@
       <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
-            <i class="ai-towel h1 fw-normal text-primary d-block mb-4"></i>
+            <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
             <p class="card-text">Peternakan & Kesehatan Hewan</p>
           </div>
         </div>
@@ -260,12 +260,12 @@
             <div class="d-flex flex-column flex-md-row justify-content-between gap-4">
               <!-- Link 1 -->
               <a href="#" class="d-flex align-items-center gap-1 mb-3 mb-md-0">
-                <i class="ai-towel h1 fw-bold text-primary"></i>
+                <i class="ai-refresh h1 fw-bold text-primary"></i>
                 <span class="card-text fw-bold">Juru<br>Tani</span>
               </a>
               <!-- Link 2 -->
               <a href="#" class="d-flex align-items-center gap-1">
-                <i class="ai-towel h1 fw-bold text-primary"></i>
+                <i class="ai-repeat h1 fw-bold text-primary"></i>
                 <span class="card-text fw-bold">Halo<br>DRH</span>
               </a>
             </div>
@@ -896,4 +896,48 @@
     <a class="btn btn-primary mb-1" href="blog-grid-sidebar.html">Read all articles</a>
   </div>
 </section>
+
+<!-- Gallery Link -->
+<section class="image-gallery mt-4 mb-4">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Image 1 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 1" class="gallery-image">
+      </div>
+      <!-- Image 2 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 2" class="gallery-image">
+      </div>
+      <!-- Image 3 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 3" class="gallery-image">
+      </div>
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 1" class="gallery-image">
+      </div>
+      <!-- Image 2 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 2" class="gallery-image">
+      </div>
+      <!-- Image 3 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 3" class="gallery-image">
+      </div>
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 1" class="gallery-image">
+      </div>
+      <!-- Image 2 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 2" class="gallery-image">
+      </div>
+      <!-- Image 3 -->
+      <div class="col-12 col-md-4">
+        <img src="https://picsum.photos/seed/picsum/150" alt="Image 3" class="gallery-image">
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+</section>
+
 @endsection
