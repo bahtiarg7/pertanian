@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Page title + Сontact form -->
-    <section class="container pt-5 pb-lg-2 pb-xl-4 py-xxl-5 my-5">
+    <section class="container pt-5 pb-lg-2 pb-xl-4 py-xxl-5 my-5 mt-5">
 
         <div class="row pb-1 pb-sm-3 pb-lg-4">
           <div class="col-lg-4 pe-xxl-4">

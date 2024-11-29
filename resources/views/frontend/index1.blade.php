@@ -44,10 +44,7 @@
       <div class="row pb-3 mb-3 mb-lg-4">
         <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
           <h2 class="h1 mb-sm-0 mx-auto me-sm-4 text-white" style="max-width: 440px;">Layanan</h2>
-          <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan yang ada di dinas pertanian kabupaten bekasi     <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLayanan">
-              Contoh Modal Layanan
-            </button></p>
+          <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan yang ada di dinas pertanian kabupaten bekasi </p>
         </div>
       </div>
     </div>
@@ -63,7 +60,7 @@
       }'>
         <div class="swiper-wrapper">
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="1">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
@@ -73,7 +70,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="2">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
@@ -83,7 +80,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="3">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
@@ -93,7 +90,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="4">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
@@ -103,7 +100,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="5">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
@@ -113,7 +110,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="6">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
@@ -123,7 +120,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="7">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
@@ -133,7 +130,7 @@
             </div>
           </div>
           <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="8">
+            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan" style="max-width: 306px;">
               <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
               <div class="card-body text-center">
                 <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
@@ -167,15 +164,12 @@
     <div class="row pb-3 mb-3 mb-lg-4">
       <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
         <h2 class="h1 mb-sm-0 mx-auto me-sm-4 text-white" style="max-width: 440px;">Layanan</h2>
-        <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan Dinas Pertanian Kabupaten Bekasi     <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLayanan">
-            Contoh Modal Layanan
-          </button></p>
+        <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan Dinas Pertanian Kabupaten Bekasi</p>
       </div>
     </div>
     <div class="row g-4">
       <!-- Card 1 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="1">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
@@ -184,7 +178,7 @@
         </div>
       </div>
       <!-- Card 2 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="2">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
@@ -193,7 +187,7 @@
         </div>
       </div>
       <!-- Card 3 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="3">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
@@ -202,7 +196,7 @@
         </div>
       </div>
       <!-- Card 4 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="4">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
@@ -211,7 +205,7 @@
         </div>
       </div>
       <!-- Card 5 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="5">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
@@ -220,7 +214,7 @@
         </div>
       </div>
       <!-- Card 6 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="6">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
@@ -229,7 +223,7 @@
         </div>
       </div>
       <!-- Card 7 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="7">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
@@ -238,7 +232,7 @@
         </div>
       </div>
       <!-- Card 8 -->
-      <div class="col-12 col-md-3 btnLayanan" data-id="8">
+      <div class="col-12 col-md-3">
         <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan">
           <div class="card-body text-center">
             <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
@@ -303,6 +297,355 @@
             <!-- Right side (Image) -->
             <div class="berita-image ms-md-4">
               <img src="https://picsum.photos/seed/picsum/400" alt="Image Berita" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-12">
+              <!-- Tab Navigation -->
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation" style="max-width: 150px;font-size:10pt;">
+                  <a class="nav-link active d-flex flex-column align-items-center" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                    {{-- <img src="path/to/your/icon1.png" alt="Home Icon" class="tab-icon me-2"> --}}
+                    <i class="ai-volume-2 h1 text-primary tab-icon mb-4"></i>
+                    <span>Pengumuman</span>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation" style="max-width: 150px;font-size:10pt;">
+                  <a class="nav-link d-flex flex-column align-items-center" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                    {{-- <img src="path/to/your/icon2.png" alt="Profile Icon" class="tab-icon me-2"> --}}
+                    <i class="ai-cast h1 text-primary tab-icon mb-4"></i>
+                    <span>Berita Iptek</span>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation" style="max-width: 150px;font-size:10pt;">
+                  <a class="nav-link d-flex flex-column align-items-center" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                    {{-- <img src="path/to/your/icon3.png" alt="Contact Icon" class="tab-icon me-2"> --}}
+                    <i class="ai-archive h1 text-primary tab-icon mb-4"></i>
+                    <span>Berita Resmi PVT</span>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation" style="max-width: 150px;font-size:10pt;">
+                  <a class="nav-link d-flex flex-column align-items-center" id="siaran-tab" data-bs-toggle="tab" href="#siaran" role="tab" aria-controls="siaran" aria-selected="false">
+                    {{-- <img src="path/to/your/icon3.png" alt="Contact Icon" class="tab-icon me-2"> --}}
+                    <i class="ai-note h1 text-primary tab-icon mb-4"></i>
+                    <span>Siaran Pers</span>
+                  </a>
+                </li>
+                <li class="nav-item" role="presentation" style="max-width: 150px;font-size:10pt;">
+                  <a class="nav-link d-flex flex-column align-items-center" id="agrinews-tab" data-bs-toggle="tab" href="#agrinews" role="tab" aria-controls="agrinews" aria-selected="false">
+                    {{-- <img src="path/to/your/icon3.png" alt="Contact Icon" class="tab-icon me-2"> --}}
+                    <i class="ai-flower h1 text-primary tab-icon mb-4"></i>
+                    <span>Agrinews</span>
+                  </a>
+                </li>
+              </ul>
+        
+              <!-- Tab Content -->
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="d-flex flex-column flex-md-row">
+                    <!-- Column 1 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 29, 2024</div>
+                        <h5 class="news-title">Judul Berita 1</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 28, 2024</div>
+                        <h5 class="news-title">Judul Berita 2</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 27, 2024</div>
+                        <h5 class="news-title">Judul Berita 3</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 26, 2024</div>
+                        <h5 class="news-title">Judul Berita 4</h5>
+                        <hr>
+                      </div>
+                    </div>
+                
+                    <!-- Column 2 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 25, 2024</div>
+                        <h5 class="news-title">Judul Berita 5</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 24, 2024</div>
+                        <h5 class="news-title">Judul Berita 6</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 23, 2024</div>
+                        <h5 class="news-title">Judul Berita 7</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 22, 2024</div>
+                        <h5 class="news-title">Judul Berita 8</h5>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="title-tabs bg-pertanian">Lihat Semua Pengumuman</p>
+                </div>                
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="d-flex flex-column flex-md-row">
+                    <!-- Column 1 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 29, 2024</div>
+                        <h5 class="news-title">Judul Berita 1</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 28, 2024</div>
+                        <h5 class="news-title">Judul Berita 2</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 27, 2024</div>
+                        <h5 class="news-title">Judul Berita 3</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 26, 2024</div>
+                        <h5 class="news-title">Judul Berita 4</h5>
+                        <hr>
+                      </div>
+                    </div>
+                
+                    <!-- Column 2 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 25, 2024</div>
+                        <h5 class="news-title">Judul Berita 5</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 24, 2024</div>
+                        <h5 class="news-title">Judul Berita 6</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 23, 2024</div>
+                        <h5 class="news-title">Judul Berita 7</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 22, 2024</div>
+                        <h5 class="news-title">Judul Berita 8</h5>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="title-tabs bg-pertanian">Lihat Semua Berita Iptek</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <div class="d-flex flex-column flex-md-row">
+                    <!-- Column 1 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 29, 2024</div>
+                        <h5 class="news-title">Judul Berita 1</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 28, 2024</div>
+                        <h5 class="news-title">Judul Berita 2</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 27, 2024</div>
+                        <h5 class="news-title">Judul Berita 3</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 26, 2024</div>
+                        <h5 class="news-title">Judul Berita 4</h5>
+                        <hr>
+                      </div>
+                    </div>
+                
+                    <!-- Column 2 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 25, 2024</div>
+                        <h5 class="news-title">Judul Berita 5</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 24, 2024</div>
+                        <h5 class="news-title">Judul Berita 6</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 23, 2024</div>
+                        <h5 class="news-title">Judul Berita 7</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 22, 2024</div>
+                        <h5 class="news-title">Judul Berita 8</h5>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="title-tabs bg-pertanian">Lihat Semua Berita Resmi PVT</p>
+                </div>
+                <div class="tab-pane fade" id="siaran" role="tabpanel" aria-labelledby="siaran-tab">
+                  <div class="d-flex flex-column flex-md-row">
+                    <!-- Column 1 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 29, 2024</div>
+                        <h5 class="news-title">Judul Berita 1</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 28, 2024</div>
+                        <h5 class="news-title">Judul Berita 2</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 27, 2024</div>
+                        <h5 class="news-title">Judul Berita 3</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 26, 2024</div>
+                        <h5 class="news-title">Judul Berita 4</h5>
+                        <hr>
+                      </div>
+                    </div>
+                
+                    <!-- Column 2 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 25, 2024</div>
+                        <h5 class="news-title">Judul Berita 5</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 24, 2024</div>
+                        <h5 class="news-title">Judul Berita 6</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 23, 2024</div>
+                        <h5 class="news-title">Judul Berita 7</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 22, 2024</div>
+                        <h5 class="news-title">Judul Berita 8</h5>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="title-tabs bg-pertanian">Lihat Semua Siaran Pers</p>
+                </div>
+                <div class="tab-pane fade" id="agrinews" role="tabpanel" aria-labelledby="agrinews-tab">
+                  <div class="d-flex flex-column flex-md-row">
+                    <!-- Column 1 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 29, 2024</div>
+                        <h5 class="news-title">Judul Berita 1</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 28, 2024</div>
+                        <h5 class="news-title">Judul Berita 2</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 27, 2024</div>
+                        <h5 class="news-title">Judul Berita 3</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 26, 2024</div>
+                        <h5 class="news-title">Judul Berita 4</h5>
+                        <hr>
+                      </div>
+                    </div>
+                
+                    <!-- Column 2 -->
+                    <div class="col-12 col-md-6">
+                      <!-- News Item 1 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 25, 2024</div>
+                        <h5 class="news-title">Judul Berita 5</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 2 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 24, 2024</div>
+                        <h5 class="news-title">Judul Berita 6</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 3 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 23, 2024</div>
+                        <h5 class="news-title">Judul Berita 7</h5>
+                        <hr>
+                      </div>
+                      <!-- News Item 4 -->
+                      <div class="news-item mb-4">
+                        <div class="date text-muted">November 22, 2024</div>
+                        <h5 class="news-title">Judul Berita 8</h5>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="title-tabs bg-pertanian">Lihat Semua Agrinews</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -428,57 +771,41 @@
           </div>
 
           <!-- Repeat the structure above for other articles if needed -->
-          <a class="title-tabs bg-pertanian" href="#">Lihat Semua Arsip</a>
         </div>
 
-        <!-- Pengumuman -->
-        <div class="right-sidebar mb-4" style="border-radius: 10px 10px 0px 0px;">
-          <h4 class="mb-4">Pengumuman</h4>
-
-          <!-- News Archive Item -->
-          <div class="col-12">
-            <div class="card d-flex flex-row mb-3">
-              
-              <!-- Left: Image -->
-              <div class="col-md-4 p-0">
-                <img src="https://picsum.photos/seed/picsum/400" alt="News Image" class="img-fluid rounded-start" style="max-height: 150px; object-fit: cover;">
-              </div>
-
-              <!-- Right: Content -->
-              <div class="col-md-8">
-                <div class="card-body p-3">
-                  <!-- Date in the top right -->
-                  <div class="d-flex justify-content-end">
-                    <span class="text-muted">November 29, 2024</span>
-                  </div>
-
-                  <!-- Horizontal Line -->
-                  <hr class="my-3">
-
-                  <!-- Title -->
-                  <h5 class="card-title">Judul Berita Terkini</h5>
-
-                  <!-- Description/Summary -->
-                  {{-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac velit vitae nulla volutpat viverra.</p>
-
-                  <!-- Read more link, responsive to screen sizes -->
-                  <div class="d-flex justify-content-start justify-content-md-end">
-                    <a href="#" class="btn btn-primary mt-2">Selengkapnya</a>
-                  </div> --}}
-                </div>
-              </div>
-            </div>
-            <a class="title-tabs bg-pertanian" href="#">Lihat Semua Pengumuman</a>
-          </div>
-
-          <!-- Repeat the structure above for other articles if needed -->
+        <!-- Sidebar Content -->
+        <div class="right-sidebar mb-4">
+          <h4 class="">Lihat Semua Berita</h4>
         </div>
 
-        <!-- Widget Section -->
+        <!-- Sidebar Kalender -->
         <div class="right-sidebar mb-4">
           <h4 class="mb-4">Agenda Kegiatan</h4>
-          <div id="fullcalendar"></div>
-        </div>
+          <div class="calendar-container">
+            <div class="calendar-header">
+              <button id="prev-month" class="btn">Prev</button>
+              <span id="month-year" class="month-year"></span>
+              <button id="next-month" class="btn">Next</button>
+            </div>
+            
+            <table id="calendar" class="calendar">
+              <thead>
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Calendar days will be inserted here dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>        
 
         <!-- Sidebar Content -->
         {{-- <div class="right-sidebar mb-4">
@@ -493,8 +820,10 @@
         
         <!-- Widget Section -->
         <div class="right-sidebar">
-          <h4 class="mb-4">GPR Kominfo</h4>
-          <div id="gpr-kominfo-widget-container"></div>
+          <div id="gpr-kominfo-widget-container">
+            <!-- Assuming this is where your widget will load -->
+            <p>Loading widget...</p> <!-- Placeholder text while the widget loads -->
+          </div>
         </div>
       </div>      
     </div>

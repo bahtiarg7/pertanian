@@ -13,7 +13,7 @@ class ProfileController extends Controller
     }
 
     public function visimisi(){
-        $visimisi = VisiMisi::find(1)->first();
+        $visimisi = VisiMisi::find(1);
         return view('frontend.visimisi', compact('visimisi'));
     }
 

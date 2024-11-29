@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Gallery -->
-    <section class="container py-5 my-lg-3 my-xl-4 my-xxl-5">
+    <section class="container py-5 my-lg-3 my-xl-4 my-xxl-5 mt-5">
         <div class="text-center pt-sm-2 pt-md-4 pt-lg-3 pt-xl-4 pb-3 mx-auto mb-3 mb-lg-4" style="max-width: 720px;">
           <h2 class="h1 pt-1 pt-sm-2">Selayang Pandang</h2>
           {{-- <p class="mb-0">Turpis nullam netus sed aliquam consectetur at felis consequat tincidunt orci varius arcu urna neque eget maecenas consequat lacus habitasse adipiscing.</p> --}}
