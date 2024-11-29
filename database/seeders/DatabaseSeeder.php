@@ -24,5 +24,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TypeSeeder::class);
         $this->call(UserSeeder::class);
         $this->call(DispositionSeeder::class);
+        $this->call(VisiMisiSeeder::class);
     }
 }

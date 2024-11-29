@@ -10,6 +10,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Admin\SiderController;
 use App\Http\Controllers\Admin\KategoriContorller;
+use App\Http\Controllers\Admin\VisiMisiController;
 use App\Http\Controllers\Frontend\IndexController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontend\AgendaController;
@@ -66,6 +67,9 @@ Route::middleware(['auth'])->group(function(){
         Route::get('/backend/silder/index', [SiderController::class, 'index'])->name('backend.silder.index');
         Route::post('/backend/silder/store', [SiderController::class, 'store'])->name('backend.silder.store');
         Route::post('silder/update-status', [SiderController::class, 'updateStatus'])->name('silder.updateStatus');
+        Route::get('/backend/visimisi/index', [VisiMisiController::class, 'index'])->name('backend.visimisi.index');
+        Route::get('/backend/visimisi/edit/{id}', [VisiMisiController::class, 'edit'])->name('backend.visimisi.edit');
+        Route::put('backend/visimisi/update/{id}', [VisiMisiController::class, 'update'])->name('backend.visimisi.update');
     });
 
 });

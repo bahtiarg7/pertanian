@@ -1,3 +1,4 @@
+
 @extends('frontend.layouts.app', [
     'title' => 'Visi Misi',
 ])
@@ -14,11 +15,11 @@
             <div class="row pt-md-3 pt-lg-5">
               <div class="col-lg-6 col-xxl-5 pb-lg-5 mb-xl-5">
                 <h1 class="display-1 text-center text-lg-start mb-xxl-5">Visi <span class="text-primary"></span></h1>
-                <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed perspiciatis porro nostrum odit incidunt accusantium sapiente officia vel quas, nisi, facilis exercitationem architecto veniam possimus eos animi laboriosam? Ipsa.</p>
+                <p class="text-body fs-xl text-center text-lg-start pb-2 pb-md-0 mb-4 mb-md-5">{{optional($visimisi)->visi}}</p>
               </div>
               <div class="col-lg-5 col-xl-4 offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
                 <h1 class="display-1 text-center text-lg-start mb-xxl-5">Misi <span class="text-primary"></span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, consequuntur id dicta, voluptatibus veniam odit ratione dignissimos temporibus dolores sed porro nemo? Aut cupiditate quibusdam nostrum nemo quas libero odio?</p>
+                <p>{{($visimisi)->misi}}</p>
                 {{-- <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-lg-start pb-3 pb-sm-5"><a class="btn btn-lg btn-primary rounded-pill w-100 w-sm-auto me-sm-3 me-xl-4 mb-2 mb-sm-0" href="#">Let's partner</a><a class="btn btn-lg btn-link text-white w-100 w-sm-auto px-2" href="portfolio-list-v2.html">View Case Studies<i class="ai-arrow-right ms-2"></i></a></div>
                 <ul class="list-inline d-xl-flex text-center text-lg-start mt-auto mb-0 mb-sm-2">
                   <li class="d-inline-flex align-items-center text-body text-nowrap pt-1 me-4">
