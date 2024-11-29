@@ -480,17 +480,58 @@
       </div>
       <div class="modal-body">
         <!-- Gambar Layanan -->
-        <img src="https://picsum.photos/seed/picsum/600/300" class="img-fluid rounded-top" alt="Gambar Layanan">
+        <img src="https://picsum.photos/seed/picsum/600/300" class="img-fluid rounded-top" alt="Gambar Layanan" id="gambarLayanan">
         
         <!-- Judul Layanan -->
-        <h4 class="mt-3 text-center">Judul Layanan</h4>
+        <h4 class="mt-3 text-center" id="judulLayanan">Judul Layanan</h4>
         
         <!-- Tanggal Berita -->
         <p class="text-center text-muted"><strong>Tanggal Berita: </strong>29 November 2024</p>
         
         <!-- Body Layanan -->
-        <p class="mt-2">Ini adalah ringkasan atau isi dari layanan yang lebih panjang. Anda dapat menambahkan konten lebih lengkap di sini, dengan penjelasan lebih lanjut tentang layanan yang ditawarkan.</p>
+        <p class="mt-2" id="bodyLayanan">Ini adalah ringkasan atau isi dari layanan yang lebih panjang. Anda dapat menambahkan konten lebih lengkap di sini, dengan penjelasan lebih lanjut tentang layanan yang ditawarkan.</p>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Agenda -->
+<div class="modal fade" id="ModalAgenda" tabindex="-1" aria-labelledby="ModalAgendaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="ModalAgendaLabel">Agenda Kegiatan <span id="TanggalAgenda">29 Nov 2024</span></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Loop untuk menampilkan daftar agenda kegiatan -->
+        @foreach(range(0, 9) as $i)
+        <div class="agenda-item">
+            <!-- Jam Kegiatan -->
+            <div class="agenda-time">
+                <p class="time">1{{ $i }}:00 AM</p>
+            </div>
+    
+            <!-- Detail Kegiatan (Judul dan Deskripsi) -->
+            <div class="agenda-details">
+                <!-- Judul Agenda Kegiatan -->
+                <h4 class="agenda-title">Judul Agenda Kegiatan {{ $i }}</h4>
+    
+                <!-- Body Agenda Kegiatan -->
+                <p class="agenda-description">
+                    Ini adalah ringkasan atau isi dari agenda kegiatan yang lebih panjang. 
+                    Anda dapat menambahkan konten lebih lengkap di sini, dengan penjelasan lebih lanjut tentang agenda kegiatan yang ditawarkan.
+                </p>
+            </div>
+        </div>
+    
+        <!-- Garis Pemisah setelah setiap agenda item -->
+        <hr>
+        @endforeach
+      </div>    
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
       </div>
@@ -500,6 +541,7 @@
 
 <!-- CSS tambahan -->
 <style>
+  /* Modal Layanan */
   .modal-body img {
     width: 100%; /* Membuat gambar mengisi lebar penuh */
     height: 300px; /* Membatasi tinggi gambar menjadi 300px */
@@ -524,6 +566,62 @@
   .modal-body .form-control {
     margin-top: 10px; /* Menambahkan jarak antara label dan input */
   }
+  /* Modal Layanan */
+
+  /* Modal Agenda */
+  .modal-body {
+  padding: 20px;
+}
+
+.agenda-item {
+  display: flex;
+  align-items: flex-start; /* Menjaga posisi elemen agar rata atas */
+  margin-bottom: 20px;
+}
+
+.agenda-time {
+  width: 80px; /* Menentukan lebar kolom jam */
+  text-align: center; /* Menengahkan jam */
+  padding-right: 15px;
+}
+
+.agenda-time .time {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff; /* Warna jam (bisa diganti sesuai selera) */
+}
+
+.agenda-details {
+  flex-grow: 1; /* Membuat kolom ini mengisi sisa ruang */
+}
+
+.agenda-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.agenda-description {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+@media (max-width: 767px) {
+  .agenda-item {
+    flex-direction: column; /* Pada layar kecil, buat elemen stack secara vertikal */
+    align-items: flex-start;
+  }
+
+  .agenda-time {
+    margin-bottom: 10px; /* Memberi jarak antara jam dan detail */
+  }
+
+  .agenda-details {
+    width: 100%; /* Menjaga agar kolom deskripsi mengisi lebar penuh */
+  }
+}
+
+  /* Modal Agenda */
 </style>
 
 
@@ -631,7 +729,8 @@
                     }
                 ],
                 eventClick: function(info) {
-                    alert('Event: ' + info.event.title + '\nStart: ' + info.event.start.toISOString());
+                    $('#ModalAgenda').modal('show');
+                    // alert('Event: ' + info.event.title + '\nStart: ' + info.event.start.toISOString());
                     // Anda bisa mengubah ini untuk menampilkan modal atau informasi tambahan
                 }
             });
@@ -674,6 +773,42 @@
                           icon: 'error',
                           title: 'Terjadi kesalahan',
                           text: 'Gagal memuat data layanan. Coba lagi nanti.',
+                          confirmButtonText: 'Tutup'
+                      });
+                  }
+              });
+          }
+
+          function tampilkanModalAgenda(idAgenda) {
+              $.ajax({
+                  url: 'URL_API_TUJUAN', // Gantilah URL ini dengan URL endpoint API yang sesuai
+                  type: 'GET',
+                  data: { id: idAgenda }, // Kirimkan id layanan yang diperlukan
+                  success: function(response) {
+                      // Asumsikan response adalah objek JSON yang berisi data layanan
+                      $('#jamAgenda').attr('src', response.jam); // Mengatur gambar layanan
+                      $('#judulAgenda').text(response.judul); // Mengatur judul layanan
+                      $('#bodyAgenda').text(response.deskripsi); // Mengatur deskripsi layanan
+
+                      // Menampilkan modal setelah data dimuat
+                      $('#ModalAgenda').modal('show');
+                      
+                      // Menampilkan SweetAlert setelah data berhasil dimuat
+                      Swal.fire({
+                          icon: 'success',
+                          title: 'Data berhasil dimuat!',
+                          text: 'Informasi agenda kegiatan telah diperbarui.',
+                          confirmButtonText: 'OK'
+                      });
+                  },
+                  error: function(xhr, status, error) {
+                      console.log("Terjadi kesalahan: " + error);
+
+                      // Menampilkan SweetAlert jika terjadi error
+                      Swal.fire({
+                          icon: 'error',
+                          title: 'Terjadi kesalahan',
+                          text: 'Gagal memuat data agenda kegiatan. Coba lagi nanti.',
                           confirmButtonText: 'Tutup'
                       });
                   }
