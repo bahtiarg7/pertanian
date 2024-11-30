@@ -1,12 +1,12 @@
 <div class="sidenav-menu">
     <a href="index.html" class="logo">
         <span class="logo-light">
-            <span class="logo-lg"><img src="{{asset('berita')}}/images/logo.png" alt="logo"></span>
+            <span class="logo-lg"><img src="{{asset('berita')}}/images/logo_pertanian.png" alt="logo"></span>
             <span class="logo-sm"><img src="{{asset('berita')}}/images/logo-sm.png" alt="small logo"></span>
         </span>
 
         <span class="logo-dark">
-            <span class="logo-lg"><img src="{{asset('berita')}}/images/logo-dark.png" alt="dark logo"></span>
+            <span class="logo-lg"><img src="{{asset('berita')}}/images/logo_pertanian.png" alt="dark logo"></span>
             <span class="logo-sm"><img src="{{asset('berita')}}/images/logo-sm.png" alt="small logo"></span>
         </span>
     </a>
@@ -68,6 +68,12 @@
                 <a href="{{route('backend.visimisi.index')}}" class="side-nav-link">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-article"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M7 8h10" /><path d="M7 12h10" /><path d="M7 16h10" /></svg>
                     <span class="menu-text"> Visi & Misi </span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{route('backend.agenda.index')}}" class="side-nav-link">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                    <span class="menu-text"> Agenda </span>
                 </a>
             </li>
 

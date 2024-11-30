@@ -49,7 +49,7 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
     </style> --}}
-    
+
     @stack('styles')
     <!-- Page loading styles -->
     <style>
@@ -145,7 +145,7 @@
 
   <style>
     .desktop {
-      display: none; 
+      display: none;
     }
 
     .mobile {
@@ -481,13 +481,13 @@
       <div class="modal-body">
         <!-- Gambar Layanan -->
         <img src="https://picsum.photos/seed/picsum/600/300" class="img-fluid rounded-top" alt="Gambar Layanan" id="gambarLayanan">
-        
+
         <!-- Judul Layanan -->
         <h4 class="mt-3 text-center" id="judulLayanan">Judul Layanan</h4>
-        
+
         <!-- Tanggal Berita -->
         <p class="text-center text-muted"><strong>Tanggal Berita: </strong>29 November 2024</p>
-        
+
         <!-- Body Layanan -->
         <p class="mt-2" id="bodyLayanan">Ini adalah ringkasan atau isi dari layanan yang lebih panjang. Anda dapat menambahkan konten lebih lengkap di sini, dengan penjelasan lebih lanjut tentang layanan yang ditawarkan.</p>
       </div>
@@ -514,24 +514,24 @@
             <div class="agenda-time">
                 <p class="time">1{{ $i }}:00 AM</p>
             </div>
-    
+
             <!-- Detail Kegiatan (Judul dan Deskripsi) -->
             <div class="agenda-details">
                 <!-- Judul Agenda Kegiatan -->
                 <h4 class="agenda-title">Judul Agenda Kegiatan {{ $i }}</h4>
-    
+
                 <!-- Body Agenda Kegiatan -->
                 <p class="agenda-description">
-                    Ini adalah ringkasan atau isi dari agenda kegiatan yang lebih panjang. 
+                    Ini adalah ringkasan atau isi dari agenda kegiatan yang lebih panjang.
                     Anda dapat menambahkan konten lebih lengkap di sini, dengan penjelasan lebih lanjut tentang agenda kegiatan yang ditawarkan.
                 </p>
             </div>
         </div>
-    
+
         <!-- Garis Pemisah setelah setiap agenda item -->
         <hr>
         @endforeach
-      </div>    
+      </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
       </div>
@@ -549,7 +549,7 @@
     border-top-left-radius: 10px; /* Radius pada sisi atas kiri gambar */
     border-top-right-radius: 10px; /* Radius pada sisi atas kanan gambar */
   }
-  
+
   .modal-body h4 {
     text-align: center; /* Menengahkan judul */
   }
@@ -677,7 +677,7 @@
         tag.src = "https://www.youtube.com/iframe_api";
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      
+
         // Replace the 'player' element with an embedded YouTube video.
         var player;
         function onYouTubeIframeAPIReady() {
@@ -691,11 +691,11 @@
             }
           });
         }
-      
+
         function onPlayerReady(event) {
           event.target.playVideo();
         }
-      
+
         function onPlayerStateChange(event) {
           if (event.data == YT.PlayerState.PLAYING) {
             console.log("Video is playing");
@@ -704,7 +704,7 @@
       </script>
       {{-- Banner Video & Image --}}
 
-      <script>
+      {{-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             var calendarEl = document.getElementById('fullcalendar');
 
@@ -737,7 +737,7 @@
 
             calendar.render();
         });
-      </script>
+      </script> --}}
 
       <script>
         $(document).ready(function() {
@@ -756,7 +756,7 @@
 
                       // Menampilkan modal setelah data dimuat
                       $('#ModalLayanan').modal('show');
-                      
+
                       // Menampilkan SweetAlert setelah data berhasil dimuat
                       Swal.fire({
                           icon: 'success',
@@ -792,7 +792,7 @@
 
                       // Menampilkan modal setelah data dimuat
                       $('#ModalAgenda').modal('show');
-                      
+
                       // Menampilkan SweetAlert setelah data berhasil dimuat
                       Swal.fire({
                           icon: 'success',

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Models\Agenda;
 use App\Models\Silder;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -102,7 +103,8 @@ class IndexController extends Controller
                 'kategori' => '',
             );
         }
+        $agenda = Agenda::all();
 
-        return view('frontend.index',['silders'=>$silders,'data'=>$berita]);
+        return view('frontend.index',['silders'=>$silders,'data'=>$berita, 'agenda'=>$agenda]);
     }
 }

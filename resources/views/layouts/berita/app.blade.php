@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>{{config('app.name')}} | Dashboard</title>
+    <title>{{config('app.name')}} | {{$title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Website dinas Pertanian Kabupaten bekasi." name="dinas pertanian" />
     <meta content="{{config('app.name')}}" name="{{config('app.name')}}" />

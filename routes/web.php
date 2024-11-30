@@ -70,6 +70,8 @@ Route::middleware(['auth'])->group(function(){
         Route::get('/backend/visimisi/index', [VisiMisiController::class, 'index'])->name('backend.visimisi.index');
         Route::get('/backend/visimisi/edit/{id}', [VisiMisiController::class, 'edit'])->name('backend.visimisi.edit');
         Route::put('backend/visimisi/update/{id}', [VisiMisiController::class, 'update'])->name('backend.visimisi.update');
+        Route::get('backend/agenda/index', [App\Http\Controllers\Admin\AgendaController::class, 'index'])->name('backend.agenda.index');
+        ROute::post('backend/agenda/store', [App\Http\Controllers\Admin\AgendaController::class, 'store'])->name('backend.agenda.store');
     });
 
 });

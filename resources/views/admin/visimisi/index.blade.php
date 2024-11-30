@@ -1,4 +1,4 @@
-@extends('layouts.berita.app')
+@extends('layouts.berita.app', ['title' => 'Visi & Misi'])
 
 @section('content')
 <div class="page-title-head d-flex align-items-sm-center flex-sm-row flex-column gap-2">

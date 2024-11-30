@@ -2,6 +2,99 @@
     'title' => 'Home',
 ])
 
+@push('styles')
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.css" rel="stylesheet">
+<style>
+/* FullCalendar Custom Styling */
+
+/* Overall calendar container */
+#fullcalendar {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Change the background color and text color of the header */
+.fc-header-toolbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Change the header button styles */
+.fc-button {
+    background-color: #0056b3;
+    color: white;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+}
+
+.fc-button:hover {
+    background-color: #00408d;
+}
+
+/* Style for navigation buttons (prev, next, today) */
+.fc-button-group {
+    margin: 0;
+}
+
+/* Style for month, week, and day view */
+.fc-view h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Event styling */
+.fc-event {
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* Hover effect for events */
+.fc-event:hover {
+    background-color: #e64a19;
+}
+
+/* Event text styling */
+.fc-event-title {
+    font-weight: normal;
+}
+
+/* Day cells styling */
+.fc-day-grid .fc-day {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Highlight today’s date */
+.fc-today {
+    background-color: #e1f5fe;
+    font-weight: bold;
+}
+
+/* Styling for weekends (Saturday and Sunday) */
+.fc-saturday, .fc-sunday {
+    background-color: #f9f9f9;
+    color: #f44336;
+}
+
+/* Tooltip for events (optional) */
+.fc-tooltip {
+    background-color: #333;
+}
+</style>
+@endpush
+
+
 @section('content')
 <section class="position-relative min-vh-100 py-5" data-bs-theme="light">
     <!-- Swiper Container -->
@@ -290,7 +383,7 @@
         <div class="content-berita">
           <h2 class="mb-4" style="color: #3e7712">Kabar Terkini Dinas Pertanian Kabupaten Bekasi</h2>
           <div class="hr"></div>
-          
+
           <div class="berita-item d-flex flex-column flex-md-row align-items-center mb-4">
             <!-- Left side (Title and Description) -->
             <div class="berita-text mb-3 mb-md-0">
@@ -299,14 +392,14 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac velit vitae nulla volutpat viverra.</p>
               <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
-      
+
             <!-- Right side (Image) -->
             <div class="berita-image ms-md-4">
               <img src="https://picsum.photos/seed/picsum/400" alt="Image Berita" class="img-fluid rounded">
             </div>
           </div>
         </div>
-        
+
         <!-- Banner Video & Image -->
         <div class="container mt-4">
           <div class="d-flex flex-column flex-md-row g-4">
@@ -314,7 +407,7 @@
             <div class="col mb-4 mr-4 p-2 d-flex justify-content-center align-items-center">
               <div id="player"></div>
             </div>
-            
+
             <!-- Image Section -->
             <div class="col mb-4 mr-4 p-2 d-flex justify-content-center align-items-center">
               <img src="https://picsum.photos/seed/picsum/500" alt="" class="custom-image" style="max-height: 330px; width: 100%; object-fit: contain;">
@@ -335,7 +428,7 @@
             </div>
           </div>
         </div>
-      </div>      
+      </div>
 
       <!-- Right Sidebar (only visible on larger screens) -->
       <div class="col-12 col-md-4">
@@ -395,7 +488,7 @@
           <!-- News Archive Item -->
           <div class="col-12">
             <div class="card d-flex flex-row mb-3">
-              
+
               <!-- Left: Image -->
               <div class="col-md-4 p-0">
                 <img src="https://picsum.photos/seed/picsum/400" alt="News Image" class="img-fluid rounded-start" style="max-height: 150px; object-fit: cover;">
@@ -438,7 +531,7 @@
           <!-- News Archive Item -->
           <div class="col-12">
             <div class="card d-flex flex-row mb-3">
-              
+
               <!-- Left: Image -->
               <div class="col-md-4 p-0">
                 <img src="https://picsum.photos/seed/picsum/400" alt="News Image" class="img-fluid rounded-start" style="max-height: 150px; object-fit: cover;">
@@ -475,9 +568,9 @@
         </div>
 
         <!-- Widget Section -->
-        <div class="right-sidebar mb-4">
-          <h4 class="mb-4">Agenda Kegiatan</h4>
-          <div id="fullcalendar"></div>
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Agenda Kegiatan</h2>
+            <div id="fullcalendar"></div>
         </div>
 
         <!-- Sidebar Content -->
@@ -490,13 +583,13 @@
             <li><a href="#">Kategori Berita 4</a></li>
           </ul>
         </div> --}}
-        
+
         <!-- Widget Section -->
         <div class="right-sidebar">
           <h4 class="mb-4">GPR Kominfo</h4>
           <div id="gpr-kominfo-widget-container"></div>
         </div>
-      </div>      
+      </div>
     </div>
   </div>
 </section>
@@ -561,7 +654,7 @@
       </div>
     </div>
   </div>
-  
+
   <!-- All articles button -->
   <div class="container text-center pt-4 pb-1 pb-sm-3 pb-md-4 py-lg-5 mb-xl-1 mb-xxl-4 mt-2 mt-lg-0">
     <a class="btn btn-primary mb-1" href="blog-grid-sidebar.html">Read all articles</a>
@@ -611,4 +704,60 @@
   </div>
 </section>
 
+<!-- Modal -->
+<div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="eventModalLabel">Detail Agenda</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
+
+@push('js')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.2.0/fullcalendar.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#fullcalendar').fullCalendar({
+            events: [
+                @foreach($agenda as $agenda)
+                    {
+                        title: '{{ $agenda->judul }}',
+                        start: '{{ $agenda->tanggal }}',
+                        description: '{{ $agenda->keterangan }}',
+                        location: '{{ $agenda->lokasi }}',
+                    },
+                @endforeach
+            ],
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },
+            eventClick: function(event) {
+                var eventDetails = `
+                    <h4>Agenda Detail</h4>
+                    <p><strong>Judul:</strong> ${event.title}</p>
+                    <p><strong>Keterangan:</strong> ${event.description}</p>
+                    <p><strong>Lokasi:</strong> ${event.location}</p>
+                `;
+                $('#eventModal .modal-body').html(eventDetails);
+                $('#eventModal').modal('show');
+            }
+        });
+    });
+</script>
+
+@endpush
