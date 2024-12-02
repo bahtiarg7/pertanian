@@ -662,7 +662,7 @@
 </section>
 
 <!-- Gallery Link -->
-<section class="image-gallery mt-4 mb-4">
+<section class="image-gallery mt-4 mb-4 d-none">
   <div class="container">
     <div class="row g-4">
       <!-- Image 1 -->
