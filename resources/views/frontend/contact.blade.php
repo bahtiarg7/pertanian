@@ -5,9 +5,9 @@
 @section('content')
     <!-- Hero -->
     <section class="container-fluid py-5 mt-4 px-sm-4 px-md-5 mt-5">
-      <div class="bg-dark rounded-5 position-relative overflow-hidden py-5 px-3 px-sm-4 px-xl-5 mt-2 mx-md-n3 mx-lg-auto" style="max-width: 1660px;" data-bs-theme="dark">
+      <div class="rounded-5 position-relative overflow-hidden py-5 px-3 px-sm-4 px-xl-5 mt-2 mx-md-n3 mx-lg-auto" style="max-width: 1660px;">
         <div class="jarallax position-absolute top-0 start-0 w-100 h-100 mt-5" data-jarallax data-speed="0.6">
-          <div class="jarallax-img position-absolute w-100 h-100" style="background-image: url({{asset('frontend')}}/img/landing/web-studio/hero-wave.png);"></div>
+          <div class="jarallax-img position-absolute w-100 h-100" style="background-image: url({{asset('frontend')}}/img/landing/web-studio/tanibekasi.png);"></div>
         </div>
         <div class="bg-white position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%;"></div>
         <div class="container position-relative z-2 pt-xl-4 pt-xxl-5 pb-sm-2">
