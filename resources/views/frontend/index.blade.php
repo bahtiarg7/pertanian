@@ -132,7 +132,7 @@
         </div>
     </div>
 </section>
-<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian mobile">
+<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian">
     <div class="container pt-2 pt-sm-4 pt-lg-5 mt-md-3 mt-lg-0">
       <div class="row pb-3 mb-3 mb-lg-4">
         <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
@@ -255,7 +255,7 @@
       </div>
     </div>
 </section>
-<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian desktop">
+<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian desktop d-none">
   <div class="container">
     <div class="row pb-3 mb-3 mb-lg-4">
       <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
