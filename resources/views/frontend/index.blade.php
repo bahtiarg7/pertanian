@@ -113,7 +113,7 @@
         <div class="swiper-wrapper">
             @foreach ($silders as $slider)
                 <div class="swiper-slide">
-                    <img src="{{ asset('upload/silder/' . $slider->image) }}" alt="Slider Image" class="w-100 h-100" style="object-fit: cover;">
+                    <img src="{{ asset('upload/silder/' . $slider->image) }}" alt="Slider Image responsive" class="w-100 h-100" style="object-fit: cover;">
                 </div>
             @endforeach
         </div>
