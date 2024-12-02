@@ -585,7 +585,7 @@
         </div> --}}
 
         <!-- Widget Section -->
-        <div class="right-sidebar">
+        <div class="right-sidebar d-none">
           <h4 class="mb-4">GPR Kominfo</h4>
           <div id="gpr-kominfo-widget-container"></div>
         </div>
@@ -744,7 +744,8 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'month,agendaWeek,agendaDay'
+                // right: 'month,agendaWeek,agendaDay'
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
             },
             eventClick: function(event) {
                 var eventDetails = `

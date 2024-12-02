@@ -41,19 +41,19 @@
                 <div class="mega-dropdown-column pt-1 pt-lg-3 pb-lg-4 bg-pertanian">
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a class="text-white dropdown-item" href="#">PROFIL</a>
+                      <a class="text-white dropdown-item" href="{{route('profile')}}">PROFIL</a>
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="text-white dropdown-item" href="#">TUGAS DAN FUNGSI</a>
+                      <a class="text-white dropdown-item" href="{{route('tugas_dan_fungsi')}}">TUGAS DAN FUNGSI</a>
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="text-white dropdown-item" href="#">PROGRAM DAN KEGIATAN</a>
+                      <a class="text-white dropdown-item" href="{{route('program_dan_kegiatan')}}">PROGRAM DAN KEGIATAN</a>
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="text-white dropdown-item" href="#">STRUKTUR ORGANISASI</a>
+                      <a class="text-white dropdown-item" href="{{route('struktur_organisasi')}}">STRUKTUR ORGANISASI</a>
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
