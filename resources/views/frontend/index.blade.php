@@ -482,7 +482,7 @@
         </div>
 
         <!-- Arsip Berita -->
-        <div class="right-sidebar mb-4" style="border-radius: 10px 10px 0px 0px;">
+        <div class="right-sidebar mb-4 d-none" style="border-radius: 10px 10px 0px 0px;">
           <h4 class="mb-4">Arsip Berita</h4>
 
           <!-- News Archive Item -->
