@@ -1,1 +1,1 @@
-@extends('layouts.berita.app')
+@extends('layouts.berita.app', ['title' => 'Dashboard'])
