@@ -125,8 +125,8 @@
         <div class="row pt-md-3 py-xxl-5 my-5">
             <div class="col py-5 mb-md-4 mb-lg-5">
                 @if(isset($slider))
-                    <h1 class="display-1 text-uppercase mb-4">{{ $slider->title }}</h1>
-                    <p class="d-block text-body fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px;">{{ $slider->deskripsi }}</p>
+                    {{-- <h1 class="display-1 text-uppercase mb-4">{{ $slider->title }}</h1> --}}
+                    {{-- <p class="d-block text-body fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px;">{{ $slider->deskripsi }}</p> --}}
                 @endif
             </div>
         </div>

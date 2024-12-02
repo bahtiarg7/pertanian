@@ -49,10 +49,6 @@
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
                     <li>
-                      <a class="text-white dropdown-item" href="{{route('program_dan_kegiatan')}}">PROGRAM DAN KEGIATAN</a>
-                      {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
-                    </li>
-                    <li>
                       <a class="text-white dropdown-item" href="{{route('struktur_organisasi')}}">STRUKTUR ORGANISASI</a>
                       {{-- <span class="mega-dropdown-column position-absolute top-0 end-0 h-100 bg-size-cover bg-repeat-0 rounded-3 rounded-start-0" style="background-image: url({{asset('frontend')}}/img/megamenu/landings.jpg);"></span> --}}
                     </li>
