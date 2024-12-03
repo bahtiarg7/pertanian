@@ -71,7 +71,13 @@ Route::middleware(['auth'])->group(function(){
         Route::get('/backend/visimisi/edit/{id}', [VisiMisiController::class, 'edit'])->name('backend.visimisi.edit');
         Route::put('backend/visimisi/update/{id}', [VisiMisiController::class, 'update'])->name('backend.visimisi.update');
         Route::get('backend/agenda/index', [App\Http\Controllers\Admin\AgendaController::class, 'index'])->name('backend.agenda.index');
-        ROute::post('backend/agenda/store', [App\Http\Controllers\Admin\AgendaController::class, 'store'])->name('backend.agenda.store');
+        Route::post('backend/agenda/store', [App\Http\Controllers\Admin\AgendaController::class, 'store'])->name('backend.agenda.store');
+        Route::get('backned/berita/index', [App\Http\Controllers\Admin\BeritaController::class, 'index'])->name('backend.berita.index');
+        Route::get('backend/berita/create', [App\Http\Controllers\Admin\BeritaController::class, 'create'])->name('backend.berita.create');
+        Route::post('backend/berita/store', [App\Http\Controllers\Admin\BeritaController::class, 'store'])->name('backend.berita.store');
+        Route::post('berita/generate-slug', [App\Http\Controllers\Admin\BeritaController::class,'generateSlug'])->name('backend.berita.generate-slug');
+        Route::get('backend/profile/index', [App\Http\Controllers\Admin\ProfileController::class, 'index'])->name('backend.profile.index');
+        Route::put('backend/profile/update/{id}', [App\Http\Controllers\Admin\ProfileController::class, 'update'])->name('backend.profile.update');
     });
 
 });

@@ -45,7 +45,14 @@
                 </a>
             </li>
             <li class="side-nav-title mt-2">Management Berita</li>
-
+            <li class="side-nav-item">
+                <a href="{{route('backend.berita.index')}}" class="side-nav-link">
+                    <span class="menu-icon">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-news"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" /><path d="M8 8l4 0" /><path d="M8 12l4 0" /><path d="M8 16l4 0" /></svg>
+                    </span>
+                    <span class="menu-text"> Berita </span>
+                </a>
+            </li>
             <li class="side-nav-item">
                 <a href="{{route('berita.kategori')}}" class="side-nav-link">
                     <span class="menu-icon">
@@ -54,14 +61,7 @@
                     <span class="menu-text"> Kategori </span>
                 </a>
             </li>
-            <li class="side-nav-item">
-                <a href="{{route('backend.silder.index')}}" class="side-nav-link">
-                    <span class="menu-icon">
-                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-photo-spark"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8h.01" /><path d="M12 21h-6a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6" /><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l3.993 3.993" /><path d="M14 14l1 -1c.47 -.452 .995 -.675 1.52 -.67" /><path d="M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5" /></svg>
-                    </span>
-                    <span class="menu-text"> Slider </span>
-                </a>
-            </li>
+
 
             <li class="side-nav-title mt-2">Management Profile Web</li>
             <li class="side-nav-item">
@@ -76,6 +76,23 @@
                     <span class="menu-text"> Agenda </span>
                 </a>
             </li>
+            <li class="side-nav-item">
+                <a href="{{route('backend.silder.index')}}" class="side-nav-link">
+                    <span class="menu-icon">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-photo-spark"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8h.01" /><path d="M12 21h-6a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6" /><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l3.993 3.993" /><path d="M14 14l1 -1c.47 -.452 .995 -.675 1.52 -.67" /><path d="M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5" /></svg>
+                    </span>
+                    <span class="menu-text"> Slider </span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{route('backend.profile.index')}}" class="side-nav-link">
+                    <span class="menu-icon">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-cv"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" /><path d="M13 11l1.5 6l1.5 -6" /></svg>
+                    </span>
+                    <span class="menu-text"> Profile </span>
+                </a>
+            </li>
+
 
 
         </ul>

@@ -18,6 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('berita_kategori_id');
             $table->foreign('berita_kategori_id')->references('id')->on('berita_kategori')->onDelete('cascade');
             $table->text('deskripsi');
+            $table->string('image')->nullable();
             $table->enum('status', ['publish', 'unpublish'])->default('publish');
             $table->enum('slider', ['Y', 'N'])->default('N');
             $table->timestamps();

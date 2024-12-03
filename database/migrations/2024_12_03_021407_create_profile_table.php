@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('profile', function (Blueprint $table) {
             $table->id();
+            $table->string('banner')->nullable();
+            $table->text('deskripsi');
             $table->timestamps();
         });
     }
