@@ -11,6 +11,7 @@
     {{-- <link rel="stylesheet" href="{{asset('berita/vendor/gridjs/theme/mermaid.min.css')}}"> --}}
     <link href="{{asset('berita')}}/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-bs4.min.css" rel="stylesheet">
     <link href="{{asset('berita')}}/vendor/quill/quill.core.css" rel="stylesheet" type="text/css" />
     <link href="{{asset('berita')}}/vendor/quill/quill.snow.css" rel="stylesheet" type="text/css" />
     <link href="{{asset('berita')}}/vendor/quill/quill.bubble.css" rel="stylesheet" type="text/css" />

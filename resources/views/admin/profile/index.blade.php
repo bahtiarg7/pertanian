@@ -1,5 +1,8 @@
 @extends('layouts.berita.app', ['title' => 'Profile Dinas'])
 @section('content')
+@push('style')
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-bs4.min.css" rel="stylesheet">
+@endpush
 <div class="page-title-head d-flex align-items-sm-center flex-sm-row flex-column gap-2">
     <div class="flex-grow-1">
         <h4 class="fs-18 fw-semibold mb-0">Profile Dinas</h4>
@@ -69,7 +72,7 @@
 
                     <div class="mb-3">
                         <label for="deskripsi" class="form-label">Deskripsi</label>
-                        <textarea class="form-control" id="deskripsi" name="deskripsi" rows="3" value="{{ optional($profile)->deskripsi }}" required></textarea>
+                        <textarea class="form-control" id="deskripsi" name="deskripsi" rows="3" value="{{ $profile->deskripsi }}" required></textarea>
                     </div>
 
                     <div class="text-end">
@@ -82,3 +85,11 @@
 </div>
 
 @endsection
+@push('js')
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote-bs4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#deskripsi').summernote();
+    });
+  </script>
+@endpush
