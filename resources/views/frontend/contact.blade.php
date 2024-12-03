@@ -3,8 +3,28 @@
 ])
 
 @section('content')
+    <!-- Hero -->
+    <section class="container-fluid py-5 mt-4 px-sm-4 px-md-5 mt-5">
+      <div class="rounded-5 position-relative overflow-hidden py-5 px-3 px-sm-4 px-xl-5 mt-2 mx-md-n3 mx-lg-auto" style="max-width: 1660px;">
+        <div class="jarallax position-absolute top-0 start-0 w-100 h-100 mt-5" data-jarallax data-speed="0.6">
+          <div class="jarallax-img position-absolute w-100 h-100" style="background-image: url({{asset('frontend')}}/img/landing/web-studio/city-lanscape-crop1.png);"></div>
+        </div>
+        <div class="bg-white position-absolute top-0 start-0 w-100 h-100" style="opacity: 2%;"></div>
+        <div class="container position-relative z-2 pt-xl-4 pt-xxl-5 pb-sm-2">
+          <div class="row pt-md-3 pt-lg-5">
+            <div class="col-lg-6 col-xxl-5 pb-lg-5 mb-xl-5">
+              <h1 class="display-1 text-center text-lg-start mb-xxl-5"><span class="text-primary"></span></h1>
+            </div>
+            <div class="col-lg-5 col-xl-4 offset-lg-1 offset-xxl-2 d-flex flex-column pt-2 pt-md-4">
+              <h1 class="display-1 text-center text-lg-start mb-xxl-5"><span class="text-primary"></span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- Page title + Сontact form -->
-    <section class="container pt-5 pb-lg-2 pb-xl-4 py-xxl-5 my-5 mt-5">
+    <section class="container pt-5 pb-lg-2 pb-xl-4 py-xxl-5 my-5 mt-5 d-none">
 
         <div class="row pb-1 pb-sm-3 pb-lg-4">
           <div class="col-lg-4 pe-xxl-4">

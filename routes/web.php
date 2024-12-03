@@ -34,8 +34,12 @@ use App\Http\Controllers\Frontend\ProfileController;
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
 Route::get('/agenda', [AgendaController::class, 'index'])->name('agenda');
-Route::get('/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi');
-Route::get('/selayang-pandang', [ProfileController::class, 'selayang_pandang'])->name('selayang_pandang');
+Route::get('/tentang-kami/profile', [ProfileController::class, 'profile'])->name('profile');
+Route::get('/tentang-kami/tugas-dan-fungsi', [ProfileController::class, 'tugas_dan_fungsi'])->name('tugas_dan_fungsi');
+Route::get('/tentang-kami/program-dan-kegiatan', [ProfileController::class, 'program_dan_kegiatan'])->name('program_dan_kegiatan');
+Route::get('/tentang-kami/struktur-organisasi', [ProfileController::class, 'struktur_organisasi'])->name('struktur_organisasi');
+Route::get('/tentang-kami/visimisi', [ProfileController::class, 'visimisi'])->name('visimisi');
+Route::get('/tentang-kami/selayang-pandang', [ProfileController::class, 'selayang_pandang'])->name('selayang_pandang');
 Route::get('/peta', [ProfileController::class, 'peta'])->name('peta');
 Route::get('/pertanian', [BeritaController::class, 'index'])->name('berita');
 

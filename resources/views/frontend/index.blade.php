@@ -113,7 +113,7 @@
         <div class="swiper-wrapper">
             @foreach ($silders as $slider)
                 <div class="swiper-slide">
-                    <img src="{{ asset('upload/silder/' . $slider->image) }}" alt="Slider Image" class="w-100 h-100" style="object-fit: cover;">
+                    <img src="{{ asset('upload/silder/' . $slider->image) }}" alt="Slider Image responsive" class="w-100 h-100" style="object-fit: cover;">
                 </div>
             @endforeach
         </div>
@@ -125,14 +125,14 @@
         <div class="row pt-md-3 py-xxl-5 my-5">
             <div class="col py-5 mb-md-4 mb-lg-5">
                 @if(isset($slider))
-                    <h1 class="display-1 text-uppercase mb-4">{{ $slider->title }}</h1>
-                    <p class="d-block text-body fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px;">{{ $slider->deskripsi }}</p>
+                    {{-- <h1 class="display-1 text-uppercase mb-4">{{ $slider->title }}</h1> --}}
+                    {{-- <p class="d-block text-body fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px;">{{ $slider->deskripsi }}</p> --}}
                 @endif
             </div>
         </div>
     </div>
 </section>
-<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian mobile">
+<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian">
     <div class="container pt-2 pt-sm-4 pt-lg-5 mt-md-3 mt-lg-0">
       <div class="row pb-3 mb-3 mb-lg-4">
         <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
@@ -255,7 +255,7 @@
       </div>
     </div>
 </section>
-<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian desktop">
+<section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian desktop d-none">
   <div class="container">
     <div class="row pb-3 mb-3 mb-lg-4">
       <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
@@ -482,7 +482,7 @@
         </div>
 
         <!-- Arsip Berita -->
-        <div class="right-sidebar mb-4" style="border-radius: 10px 10px 0px 0px;">
+        <div class="right-sidebar mb-4 d-none" style="border-radius: 10px 10px 0px 0px;">
           <h4 class="mb-4">Arsip Berita</h4>
 
           <!-- News Archive Item -->
@@ -585,7 +585,7 @@
         </div> --}}
 
         <!-- Widget Section -->
-        <div class="right-sidebar">
+        <div class="right-sidebar d-none">
           <h4 class="mb-4">GPR Kominfo</h4>
           <div id="gpr-kominfo-widget-container"></div>
         </div>
@@ -662,7 +662,7 @@
 </section>
 
 <!-- Gallery Link -->
-<section class="image-gallery mt-4 mb-4">
+<section class="image-gallery mt-4 mb-4 d-none">
   <div class="container">
     <div class="row g-4">
       <!-- Image 1 -->
@@ -710,14 +710,12 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="eventModalLabel">Detail Agenda</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
             </div>
         </div>
     </div>
@@ -744,7 +742,8 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'month,agendaWeek,agendaDay'
+                // right: 'month,agendaWeek,agendaDay'
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
             },
             eventClick: function(event) {
                 var eventDetails = `
