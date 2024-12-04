@@ -12,6 +12,7 @@ use App\Http\Controllers\Admin\SiderController;
 use App\Http\Controllers\Admin\KategoriContorller;
 use App\Http\Controllers\Admin\VisiMisiController;
 use App\Http\Controllers\Frontend\IndexController;
+use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Frontend\AgendaController;
 use App\Http\Controllers\Frontend\BeritaController;
@@ -82,6 +83,8 @@ Route::middleware(['auth'])->group(function(){
         Route::post('berita/generate-slug', [App\Http\Controllers\Admin\BeritaController::class,'generateSlug'])->name('backend.berita.generate-slug');
         Route::get('backend/profile/index', [App\Http\Controllers\Admin\ProfileController::class, 'index'])->name('backend.profile.index');
         Route::put('backend/profile/update/{id}', [App\Http\Controllers\Admin\ProfileController::class, 'update'])->name('backend.profile.update');
+        Route::get('backend/setting/index', [App\Http\Controllers\Admin\SettingController::class, 'index'])->name('backend.setting.index');
+        Route::post('backend/setting/update/{id}', [App\Http\Controllers\Admin\SettingController::class, 'update'])->name('backend.setting.update');
     });
 
 });
