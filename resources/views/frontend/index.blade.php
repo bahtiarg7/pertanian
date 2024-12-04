@@ -133,125 +133,127 @@
     </div>
 </section>
 <section class="pt-5 mt-lg-3 mt-xl-4 mt-xxl-5 bg-pertanian">
-    <div class="container pt-2 pt-sm-4 pt-lg-5 mt-md-3 mt-lg-0">
-      <div class="row pb-3 mb-3 mb-lg-4">
+    <div class="container">
+      <div class="container pt-2 pt-sm-4 pt-lg-5 mt-md-3 mt-lg-0">
+        <div class="row pb-3 mb-3 mb-lg-4">
+          <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
+            <h2 class="h1 mb-sm-0 mx-auto me-sm-4 text-white" style="max-width: 440px;">Layanan</h2>
+            <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan yang ada di dinas pertanian kabupaten bekasi     <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLayanan">
+                Contoh Modal Layanan
+              </button></p>
+          </div>
+        </div>
+      </div>
+      <div class="container-start pe-0">
+        <div class="swiper" data-swiper-options='{
+          "slidesPerView": "auto",
+          "spaceBetween": 24,
+          "loop": true,
+          "navigation": {
+            "prevEl": "#prev-feature",
+            "nextEl": "#next-feature"
+          }
+        }'>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="1">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Portal PPID</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="2">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Konsultasi Pertanian Online</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="3">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Kontak Pengaduan</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="4">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Perizinan Pertanian</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="5">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Perbenihan</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="6">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Pengembangan SDM</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="7">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Data Penerima Subsidi Pupuk</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide w-auto h-auto">
+              <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="8">
+                <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
+                <div class="card-body text-center">
+                  <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
+                  <h3>Peternakan & Kesehatan Hewan</h3>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Slider controls (Prev / Next buttons) -->
+        <div class="container d-flex justify-content-center justify-content-sm-end pt-3 mt-3 mt-lg-4">
+          <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle me-3 text-white" type="button" id="prev-feature" aria-label="Prev">
+            <i class="ai-arrow-left"></i>
+          </button>
+          <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle text-white" type="button" id="next-feature" aria-label="Next">
+            <i class="ai-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row mt-5">
         <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
-          <h2 class="h1 mb-sm-0 mx-auto me-sm-4 text-white" style="max-width: 440px;">Layanan</h2>
-          <p class="pt-2 mb-0 mx-auto text-white" style="max-width: 420px;">Layanan yang ada di dinas pertanian kabupaten bekasi     <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLayanan">
-              Contoh Modal Layanan
-            </button></p>
+          <h2 class="h1 mb-sm-0 mx-auto me-sm-4" style="max-width: 440px;"></h2>
+          <p class="pt-2 mb-0 mx-auto" style="max-width: 420px;"></p>
         </div>
-      </div>
-    </div>
-    <div class="container-start pe-0">
-      <div class="swiper" data-swiper-options='{
-        "slidesPerView": "auto",
-        "spaceBetween": 24,
-        "loop": true,
-        "navigation": {
-          "prevEl": "#prev-feature",
-          "nextEl": "#next-feature"
-        }
-      }'>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="1">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-messages h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Portal PPID</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="2">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-headphone h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Konsultasi Pertanian Online</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="3">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-phone-in h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Kontak Pengaduan</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="4">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-file-text h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Perizinan Pertanian</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="5">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-cloud-drizzle h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Perbenihan</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="6">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-user-group h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Pengembangan SDM</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="7">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-shower h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Data Penerima Subsidi Pupuk</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide w-auto h-auto">
-            <div class="card border-0 bg-secondary card-hover h-100 py-4 card-layanan btnLayanan" style="max-width: 306px;" data-id="8">
-              <div class="opacity-0 position-absolute top-0 start-0 w-100 h-100 bg-size-cover bg-position-center rounded-5" style="background-image: url({{asset('frontend')}}/img/landing/);"></div>
-              <div class="card-body text-center">
-                <i class="ai-briefcase-plus h1 fw-normal text-primary d-block mb-4"></i>
-                <h3>Peternakan & Kesehatan Hewan</h3>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slider controls (Prev / Next buttons) -->
-      <div class="container d-flex justify-content-center justify-content-sm-end pt-3 mt-3 mt-lg-4">
-        <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle me-3 text-white" type="button" id="prev-feature" aria-label="Prev">
-          <i class="ai-arrow-left"></i>
-        </button>
-        <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle text-white" type="button" id="next-feature" aria-label="Next">
-          <i class="ai-arrow-right"></i>
-        </button>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-lg-11 d-sm-flex justify-content-between text-center text-sm-start">
-        <h2 class="h1 mb-sm-0 mx-auto me-sm-4" style="max-width: 440px;"></h2>
-        <p class="pt-2 mb-0 mx-auto" style="max-width: 420px;"></p>
       </div>
     </div>
 </section>
